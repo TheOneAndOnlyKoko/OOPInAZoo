@@ -1,14 +1,14 @@
 /**
  * Created by h205p2 on 9/25/17.
  */
-public class Bear {
+public class Bear extends Animal {
     // put your instance variables here!
     String name;
     String favoriteFood = "fish";
 
     public Bear(String name) {
         // put your constructor content here
-        this.name = name;
+        super (name);
     }
 
     public void sleep() {

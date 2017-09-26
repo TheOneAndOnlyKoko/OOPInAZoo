@@ -6,7 +6,7 @@ public class Animal {
     String favoriteFood;
     String name;
 
-    public Animal(String name, String favoriteFood) {
+    public Animal(String name) {
         // put your initializer content here
         this.name = name;
         this.favoriteFood = favoriteFood;
