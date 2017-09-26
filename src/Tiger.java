@@ -1,7 +1,7 @@
 /**
  * Created by h205p2 on 9/21/17.
  */
-public class Tiger {
+public class Tiger extends Animal{
     // put your instance variables here!
     String name;
     String favoriteFood = "meat";
