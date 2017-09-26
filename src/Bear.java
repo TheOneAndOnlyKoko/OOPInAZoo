@@ -4,11 +4,11 @@
 public class Bear extends Animal {
     // put your instance variables here!
     String name;
-    String favoriteFood = "fish";
+    String favoriteFood;
 
-    public Bear(String name) {
+    public Bear(String name, String favoriteFood) {
         // put your constructor content here
-        super (name);
+        super (name, favoriteFood);
     }
 
     public void sleep() {
@@ -27,7 +27,7 @@ public class Bear extends Animal {
     public static void main(String[] args) {
         //either make a new instance of a zoo
         //to call the non-static sleep method....
-        Tiger pooh = new Tiger("Pooh");
+        Tiger pooh = new Tiger("Pooh", "fish");
         pooh.eat("meat");
         pooh.eat("fish");
         pooh.sleep();

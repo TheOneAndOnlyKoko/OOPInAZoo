@@ -4,10 +4,10 @@
 public class zoo {
     String favoriteFood = "bacon";
     public static void main(String[] args) {
-        Tiger tigger = new Tiger("Tigger");
+        Tiger tigger = new Tiger("Tigger", "meat");
         tigger.eat("meat");
         tigger.eat("kibble");
-        Bear pooh = new Bear("Pooh");
+        Bear pooh = new Bear("Pooh", "fish");
         pooh.eat("fish");
         pooh.eat("meat");
 
