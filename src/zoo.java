@@ -6,27 +6,47 @@ public class zoo {
     public static void main(String[] args) {
         Tiger tigger = new Tiger("Tigger", "meat");
         tigger.eat("meat");
-        tigger.eat("kibble");
+        tigger.sleep();
         Bear pooh = new Bear("Pooh", "fish");
         pooh.eat("fish");
         pooh.eat("meat");
+        pooh.sleep();
+        Unicorn rarity = new Unicorn("Rarity", "marshmallows");
+        rarity.eat("marshmallows");
+        rarity.sleep();
+        Giraffe gemma = new Giraffe("gemma", "leaves");
+        gemma.eat("meat");
+        gemma.eat("leaves");
+        gemma.sleep();
+        Bee stinger = new Bee("Stinger", "Pollen");
+        stinger.eat("ice cream");
+        stinger.eat("pollen");
+        stinger.sleep();
 
     }
-
-    public void sleep(String name) {
-        System.out.print(name + " sleeps for 8 hours");
-    }
-
-    public void eat(String animal, String food) {
-        if (food == favoriteFood) {
-            System.out.println(animal + " eats " + food);
-            System.out.println("YUM!!! " + animal + " wants more " + food);
-        }
-        else {
-            System.out.println(animal + " eats " + food);
-        }
-    }
+    /*
+    Tigger eats meat
+    YUM!!! Tigger wants more meat
+    Pooh eats fish
+    YUM!!! Pooh wants more fish
+    Pooh eats meat
+    Pooh hibernates for 4 months
+    Rarity eats marshmallows
+    YUM!!! Rarity wants more marshmallows
+    Rarity sleeps in a cloud
+    YUCK!!! Gemma will not eat meat
+    Gemma eats leaves
+    YUM!!! Gemma wants more leaves
+    Gemma sleeps for 8 hours
+    YUCK!!! Stinger will not eat ice cream
+    Stinger eats pollen
+    YUM!!! Stinger wants more pollen
+    Stinger never sleeps
+    */
 }
+
+
+
 
 
 
