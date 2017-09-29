@@ -5,11 +5,13 @@ public class Animal {
     // Put your instance variables here
     String favoriteFood;
     String name;
+    static int counter = 0;
 
     public Animal(String favoriteFood, String name) {
         // put your initializer content here
         this.name = name;
         this.favoriteFood = favoriteFood;
+        this.counter = 0;
     }
 
     public void sleep() {

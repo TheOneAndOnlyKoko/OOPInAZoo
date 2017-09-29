@@ -1,8 +1,9 @@
+import java.util.ArrayList;
+
 /**
  * Created by h205p2 on 9/21/17.
  */
 public class zoo {
-    String favoriteFood = "bacon";
     public static void main(String[] args) {
         Tiger tigger = new Tiger("Tigger", "meat");
         tigger.eat("meat");
@@ -22,6 +23,14 @@ public class zoo {
         stinger.eat("ice cream");
         stinger.eat("pollen");
         stinger.sleep();
+        ArrayList<Animal> animals = new ArrayList<Animal>();
+        animals.add(stinger);
+        animals.add(gemma);
+        animals.add(rarity);
+        animals.add(pooh);
+        animals.add(tigger);
+        zookeeper zoebot = new zookeeper();
+        zoebot.feedAnimals(animals, "meat");
 
     }
     /*
