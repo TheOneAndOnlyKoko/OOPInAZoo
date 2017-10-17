@@ -1,6 +1,3 @@
-/**
- * Created by h205p2 on 9/25/17.
- */
 public class Animal {
     // Put your instance variables here
     String favoriteFood;
